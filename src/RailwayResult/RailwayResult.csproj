@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>net8.0;net9.0</TargetFrameworks>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<IsPackable>true</IsPackable>
+		<LangVersion>12.0</LangVersion>
+		<Authors>Ignacio Menchaca</Authors>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageId>RailwayResult</PackageId>
+		<PackageTags>Result</PackageTags>
+		<PackageProjectUrl>https://github.com/IgnacioCastro0713/RailwayResult</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/IgnacioCastro0713/RailwayResult</RepositoryUrl>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleTo">
+			<_Parameter1>RailwayResult.Tests</_Parameter1>
+		</AssemblyAttribute>
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Include="..\..\README.md" Pack="true" PackagePath="\" />
+	</ItemGroup>
+</Project>
